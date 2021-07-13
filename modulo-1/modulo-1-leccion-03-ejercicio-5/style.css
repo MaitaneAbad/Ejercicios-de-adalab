@@ -1,0 +1,31 @@
+.parrafo1 {
+  display: inline-block;
+  width: 200px;
+  height: 315px;
+  background-color: lightcoral;
+}
+
+.parrafo2 {
+  display: inline-block;
+  width: 200px;
+  height: 110;
+  background-color: lightblue;
+}
+img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 5px solid red;
+}
+p {
+  display: inline;
+  background-color: magenta;
+}
+.gatos {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+body {
+  box-sizing: border-box;
+} (No entiendo lo del modelo de pagina)
