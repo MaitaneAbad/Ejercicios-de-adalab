@@ -1,0 +1,22 @@
+.parrafo1 {
+  display: inline-block;
+  width: 200px;
+  height: 315px;
+  background-color: lightcoral;
+}
+
+.parrafo2 {
+  display: inline-block;
+  width: 200px;
+  height: 110;
+  background-color: lightblue;
+}
+img {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+}
+p {
+  display: inline;
+  background-color: magenta;
+}
