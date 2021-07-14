@@ -1,0 +1,56 @@
+:root {
+  --margen: 100px;
+  --TipoDeLetra: arial;
+  --colorFondo: transparent;
+}
+
+body {
+  margin: var(--margen);
+  font-family: var(--TipoDeLetra);
+  background-color: var(--colorFondo);
+}
+header {
+  border: 10px red;
+  padding: 50px green;
+
+  font-family: "Times New Roman", Times, serif;
+}
+
+main {
+  padding: 20px;
+
+  margin: var(--margen);
+}
+
+p {
+  width: 50%;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: grey;
+  margin: 0;
+}
+
+.subtitle {
+  color: grey;
+  margin: 0;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: green;
+  text-decoration: none;
+}
+
+p a {
+  color: green;
+}
