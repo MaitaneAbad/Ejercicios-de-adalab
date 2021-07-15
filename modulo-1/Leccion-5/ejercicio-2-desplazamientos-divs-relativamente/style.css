@@ -9,8 +9,8 @@
   padding: 30px;
   background-color: powderblue;
   position: relative;
-  left: 100px;
-  top: 50px;
+  right: 100px;
+  bottom: 50px;
 }
 
 .div2 {
@@ -20,8 +20,8 @@
   padding: 30px;
   background-color: plum;
   position: relative;
-  right: 150px;
-  bottom: 320px;
+  left: 150px;
+  top: 320px;
 }
 
 .div3 {
@@ -32,5 +32,5 @@
   background-color: palegoldenrod;
   position: relative;
   left: 180px;
-  bottom: 240px;
+  top: 240px;
 }
