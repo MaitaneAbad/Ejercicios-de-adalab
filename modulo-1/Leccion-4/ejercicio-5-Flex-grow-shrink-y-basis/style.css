@@ -1,0 +1,26 @@
+.navegador {
+  display: flex;
+  width: 30%;
+  border: solid 3px black;
+  flex-wrap: wrap;
+  min-height: 10vh;
+}
+
+.header {
+  background-color: pink;
+  width: 100%;
+  height: 10vh;
+  font-size: 15px;
+}
+.main {
+  background-color: powderblue;
+  width: 100%;
+  height: 50vh;
+  font-size: 15px;
+}
+.footer {
+  background-color: pink;
+  width: 100%;
+  height: 10vh;
+  font-size: 15px;
+}
