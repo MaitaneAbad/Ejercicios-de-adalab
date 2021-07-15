@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  background-color: palevioletred;
+  height: 100px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.item {
+  background-color: papayawhip;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
