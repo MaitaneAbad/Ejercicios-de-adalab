@@ -1,0 +1,36 @@
+.padre {
+  border: solid 2px black;
+}
+
+.div1 {
+  width: 240px;
+  height: 240px;
+  margin: 40px;
+  padding: 30px;
+  background-color: powderblue;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+.div2 {
+  width: 240px;
+  height: 240px;
+  margin: 40px;
+  padding: 30px;
+  background-color: plum;
+  position: relative;
+  right: 150px;
+  bottom: 320px;
+}
+
+.div3 {
+  width: 240px;
+  height: 240px;
+  margin: 40px;
+  padding: 30px;
+  background-color: palegoldenrod;
+  position: relative;
+  left: 180px;
+  bottom: 240px;
+}
