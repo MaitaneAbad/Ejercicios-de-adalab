@@ -1,0 +1,13 @@
+.cabecera {
+  position: relative;
+  background-color: indigo;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.container {
+  background-color: white;
+  overflow: auto;
+}
+/* No entiendo pq se me quita el scroll cuando aplico la position fixed*/
