@@ -1,34 +1,31 @@
 .container {
-  display: flex;
+  position: absolute;
   box-sizing: border-box;
-  width: 500px;
-  flex-direction: row;
-  justify-content: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
-
 .box1 {
   background-color: yellow;
-  width: 416px;
-  height: 416px;
-  position: absolute;
+  width: 500px;
+  height: 500px;
+
   padding: 40px;
-  border: 2px solid black;
+  border: 2px;
 }
 
 .box2 {
   background-color: green;
-  width: 150px;
-  height: 150px;
-  position: absolute;
+  width: 300px;
+  height: 300px;
+
   padding: 75px;
-  transform: translate(0, 100px);
 }
 
 .box3 {
   background-color: blue;
   width: 150px;
   height: 150px;
-  position: absolute;
+
   border: 20px;
-  transform: translate(0, 110%);
 }
