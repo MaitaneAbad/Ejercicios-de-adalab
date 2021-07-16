@@ -1,0 +1,9 @@
+.texto {
+  text-align: center;
+}
+
+.caja {
+  max-width: 600px;
+  margin: auto;
+  width: 86%;
+}
