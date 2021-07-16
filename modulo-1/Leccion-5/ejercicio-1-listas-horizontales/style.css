@@ -6,14 +6,12 @@
   justify-content: center;
   flex-wrap: wrap;
   box-sizing: border-box;
-  justify-content: center;
 }
 
 .box {
   display: Inline;
   border: solid 1px purple;
   width: 50px;
-  padding: 12px;
-  margin: 2px;
+  margin: 6px;
   justify-content: center;
 }
