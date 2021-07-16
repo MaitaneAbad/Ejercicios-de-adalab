@@ -11,6 +11,7 @@
   position: relative;
   right: 100px;
   bottom: 50px;
+  z-index: 990;
 }
 
 .div2 {
