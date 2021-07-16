@@ -21,6 +21,7 @@
   height: 150px;
   position: absolute;
   padding: 75px;
+  transform: translate(0, 100px);
 }
 
 .box3 {
@@ -29,4 +30,5 @@
   height: 150px;
   position: absolute;
   border: 20px;
+  transform: translate(0, 110%);
 }
