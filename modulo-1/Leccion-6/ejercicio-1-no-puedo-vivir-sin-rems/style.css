@@ -1,0 +1,23 @@
+html {
+  font-size: 1rem; /* 16px */
+}
+.smiley {
+  width: 3.125rem;
+  /* 100px=6.25rem       200px=12.5rem        50px=3.125rem*/
+  height: 3.125rem;
+  /* 100px=6.25rem       200px=12.5rem        50px=3.125rem*/
+  line-height: 3.125rem;
+  /* 100px=6.25rem      200px=12.5rem      50px=3.125rem */
+  text-align: center;
+  font-family: "courier new";
+  font-weight: bold;
+  font-size: 1.563rem;
+  /* 50px=3.125rem      100px=6.25rem        25px=1.563rem */
+  color: #424242;
+  background: #ffcc00;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
