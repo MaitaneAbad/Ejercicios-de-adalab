@@ -1,0 +1,10 @@
+@media all and(min-width:480px) {
+  .header {
+    background-color: red;
+  }
+}
+@media all and (min-width: 480px, 768px) {
+  .header {
+    background-color: yellow;
+  }
+}
