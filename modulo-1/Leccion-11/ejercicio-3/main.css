@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 20% 60% 20%;
+  grid-gap: 5px;
+}
+
+.item {
+  background: pink;
+  color: papayawhip;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1 {
+  grid-column: 1/13;
+}
+
+.item2 {
+  background: purple;
+  grid-column: 1/6;
+}
+
+.item3 {
+  background: red;
+  grid-column: 6/13;
+}
+
+.item4 {
+  background: blue;
+  grid-column: 1/13;
+}
