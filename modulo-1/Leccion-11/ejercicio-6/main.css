@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  display: grid;
+
+  text-align: center;
+}
+
+.row {
+  color: papayawhip;
+}
+
+.header {
+  background-color: cornflowerblue;
+  border: solid 1px black;
+}
+
+.menu {
+  background-color: cornflowerblue;
+  border: solid 1px black;
+}
+.aside {
+  background-color: cornflowerblue;
+  border: solid 1px black;
+}
+
+.footer {
+  background-color: cornflowerblue;
+  border: solid 1px black;
+}
