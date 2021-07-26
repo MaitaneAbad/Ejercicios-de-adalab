@@ -1,0 +1,53 @@
+header {
+  height: 75px;
+
+  @media all and (min-width: 768px) {
+    height: 100px;
+  }
+  @media all and (min-width: 1280px) {
+    height: 110px;
+  }
+}
+
+.main {
+  &__div {
+    &--principal {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+    }
+
+    &--seccion {
+      &__boton {
+        display: inline;
+        background: green;
+        border-radius: 5px;
+        height: 45px;
+      }
+    }
+  }
+}
+/*entendido*/
+/************************Ejercicio 5*****************/
+
+@mixin t($color, $background-color) {
+  color: $color;
+  background-color: $background-color;
+}
+
+.main {
+  &__div2 {
+    &--titulo {
+      @include t(red, green);
+    }
+    &--titulo2 {
+      @include t(blue, yellow);
+    }
+    &--titulo3 {
+      @include t(purple, pink);
+    }
+  }
+}
+
+/**** NO ENTENDEMOS EL EJERCICIO 6 DEL SASS***********/
