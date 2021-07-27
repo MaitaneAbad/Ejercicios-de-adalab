@@ -1,0 +1,43 @@
+.header {
+  text-align: center;
+  margin: 10px;
+}
+
+.coment {
+  margin: 0 55px 20px 55px;
+}
+.wraper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 30%;
+  grid-gap: 5px;
+  height: 120vh;
+}
+
+.box {
+  text-align: center;
+  border: solid 1px red;
+}
+
+.minibox {
+  text-align: center;
+  background-color: gainsboro;
+  height: 10%;
+}
+
+.ads {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.text {
+  margin-top: 10px;
+  border: solid 1px blue;
+  font-size: 10px;
+  width: 20ch;
+}
+
+.btn {
+  margin-top: 20px;
+}

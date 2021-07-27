@@ -1,0 +1,25 @@
+.wraper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 30% 30% 30% 30% 30% 30%;
+  grid-gap: 5px;
+  height: 40vh;
+}
+
+.element {
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+.box {
+  border: solid 1px red;
+}
+
+/*breakpoint xtra small*/
+.box-1 {
+  grid-column: 1/3;
+}
+
+/*breakpoint medium*/
+
+/*breakpoint large*/
