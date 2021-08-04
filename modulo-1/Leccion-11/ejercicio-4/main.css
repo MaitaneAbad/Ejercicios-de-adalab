@@ -14,10 +14,7 @@
 .item--header {
   grid-column: 1/3;
 }
-.item--main {
-}
-.item--aside {
-}
+
 .item--footer {
   grid-area: footer;
 }

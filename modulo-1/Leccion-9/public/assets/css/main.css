@@ -1,0 +1,38 @@
+header {
+  height: 75px; }
+  @media all and (min-width: 768px) {
+    header {
+      height: 100px; } }
+  @media all and (min-width: 1280px) {
+    header {
+      height: 110px; } }
+
+.main__div--principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; }
+
+.main__div--seccion__boton {
+  display: inline;
+  background: green;
+  border-radius: 5px;
+  height: 45px; }
+
+/*entendido*/
+/************************Ejercicio 5*****************/
+.main__div2--titulo {
+  color: red;
+  background-color: green; }
+
+.main__div2--titulo2 {
+  color: blue;
+  background-color: yellow; }
+
+.main__div2--titulo3 {
+  color: purple;
+  background-color: pink; }
+
+/**** NO ENTENDEMOS EL EJERCICIO 6 DEL SASS***********/
+
+/*# sourceMappingURL=main.css.map */
