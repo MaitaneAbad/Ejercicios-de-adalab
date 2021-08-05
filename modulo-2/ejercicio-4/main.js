@@ -1,5 +1,6 @@
 'use strict'
 
 const titleElement = document.querySelector('.title');
-
-titleElement.innerHTML = titleElement.innerHTML + (' Irene');
+console.log (titleElement.innerHTML);
+let nameAdalaber = ' Irene';
+titleElement.innerHTML = titleElement.innerHTML +  nameAdalaber;
