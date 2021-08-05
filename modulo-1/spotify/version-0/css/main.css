@@ -1,0 +1,43 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+  height: 35px;
+}
+
+.header .menu {
+  height: 20px;
+}
+
+.trial {
+  background-color: rgb(126, 191, 214);
+}
+
+.superbox {
+}
+
+.footer {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  border: solid 1px red;
+}
+.text-container {
+  border: solid 1px blue;
+}
+.box {
+  margin-left: 10%;
+  width: 20%;
+  border: solid 2px yellow;
+}
+
+.superbox {
+}
