@@ -5,3 +5,7 @@
 .main__title {
   color: red;
 }
+
+.highlight {
+  text-decoration: underline;
+}
