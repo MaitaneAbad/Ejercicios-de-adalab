@@ -7,4 +7,8 @@ let userAvatar = 'http://www.fillmurray.com/300/300' ;
 
 let user = document.querySelector('.user__avatar');
 console.log(user);
-user.innerHTML = `<img src='http://www.fillmurray.com/300/300'></img>`;
+
+const newAvatar = userAvatar || DEFAULT_AVATAR;
+
+user.src = userAvatar;
+user.src = DEFAULT_AVATAR;
