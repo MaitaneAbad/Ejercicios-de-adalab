@@ -1,18 +1,10 @@
-function math(a){
-    const result =  a;
-    const resultIVA = a*(21/100);
-    const resultTotal =  result + resultIVA;
+'use strict';
 
-    return `Precio sin IVA: ${result}, IVA: ${resultIVA} y total ${resultTotal}`;
+
+function math(a) {
+  return (a) ;
 }
-
-const total = math(10);
-console.log(total)
-
-
-const total1 = math(20);
-console.log(total1)
-
-const total2 = math(30);
-console.log(total2)
-
+const Price = (20);
+const Iva = (20 * (21 / 100) );
+const priceTotal = Price + Iva;
+console.log(`El precio sin IVA ${Price} , el IVA (21%) ${Iva} y el total ${priceTotal}`);
