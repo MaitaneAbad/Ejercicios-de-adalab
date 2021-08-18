@@ -19,9 +19,9 @@ function colorfulScroll() {
         if(myWindow.classList.contains('text2')){
             myWindow.classList.remove('text2');
             myWindow.classList.add('text1');
-        }/* y aquí pone; sino supera los 250 px pone eso en la consola y en el 1ª classlist comprueba si existe la clase, 2º classlist indica que lo elimine y el 3º classlist que vuelva a añadir el esa clase en mywindoy(que es la contante que hemos creado para traer el texto a JS desde HTML ) */
+        }/* y aquí pone; sino supera los 250 px pone eso en la consola y en el 1ª classlist comprueba si existe la clase, 2º classlist indica que lo elimine y el 3º classlist que vuelva a añadir el esa clase en mywindoy(que es la constante que hemos creado para traer el texto a JS desde HTML ) */
     }    
 }
 
 ventana.addEventListener('scroll', colorfulScroll);
-/* Aquí estamo diciendo a la 1º constante creada que añada el evento cuando agamos scroll y que realice la función colorfulscroll */
+/* Aquí estamo diciendo a la 1º constante creada que añada el evento cuando hagamos scroll y que realice la función colorfulscroll */

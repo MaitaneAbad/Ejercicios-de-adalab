@@ -19,9 +19,16 @@ adalaber2.work = 'actriz';
 text.innerHTML = (`Mi nombre es ${adalaber2.name}, tengo ${adalaber2.age} años y soy ${adalaber2.work}`);
 
 
+/***********************************************************************/
 
+const text3 = document.querySelector('.text3'); /*estoy llamando al body del HTML*/
 
-
+/*const adalab = {
+name = 'Rocío',
+age = 25,
+work = 'actriz'
+};
+text3.innerHTML = (` ${adalab.name} + ${adalab.age} + ${adalab.work}`);*/
 
 
 /****************************************************************/
@@ -37,6 +44,6 @@ const adalaber = {
     }
   };
 
-console.log(`La adalaber nº 8 se llama ${adalaber.name} y tiene ${adalaber.age} años. `);
+console.log(`La adalaber nº 8 se llama ${adalaber.name} y tiene ${adalaber.age} años y vivo en ${adalaber.address.street}, número ${adalaber.address.number}. `);
 
-text2.innerHTML = (`La adalaber nº 8 se llama ${adalaber.name} y tiene ${adalaber.age} años. `);
+text2.innerHTML = (`La adalaber nº 8 se llama ${adalaber.name} y tiene ${adalaber.age} años y vivo en ${adalaber.address.street}, número ${adalaber.address.number}. `);
