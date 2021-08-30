@@ -2,14 +2,15 @@
 
 const button =document.querySelector('.js-button');
 
-function changeColor(event){
+function changeColor (event){
     event.preventDefault();
-
     if(button.classList.contains('js-button')){
+        button.classList.remove('js-button');
         button.classList.add('button');
     }
-    else if (button.classList.toggle('button')){
-    
+    else if (button.classList.contains('button')){
+        button.classList.remove('button');
+        button.classList.add('js-button');
     }
 }
 
