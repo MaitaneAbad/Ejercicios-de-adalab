@@ -1,0 +1,45 @@
+.page {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background: #ffcc00;
+}
+.background-Y {
+  background: #ffcc00;
+}
+.background-O {
+  background: #ff9900;
+}
+.head {
+  display: flex;
+  font-size: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.face {
+  background: #fff;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+  margin: 15px;
+  box-sizing: border-box;
+  padding: 3px 15px 3px 2px;
+}
+
+.update {
+  background: cyan;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 5px;
+  margin: 15px;
+  box-sizing: border-box;
+  padding: 3px;
+}

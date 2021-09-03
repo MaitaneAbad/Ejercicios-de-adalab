@@ -9,5 +9,5 @@ function hi (event){ /*Para que no se recargue la página cuando hay un formular
     console.log(`Hola ${name.value}`)
     
 }
-//button.addEventListener("click", hi);
+button.addEventListener("click", hi);
 
