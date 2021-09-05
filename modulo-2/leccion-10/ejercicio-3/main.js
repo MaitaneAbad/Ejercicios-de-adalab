@@ -11,6 +11,7 @@ function getUrl() {
 }
 function clickButton() {
   let url = getUrl();
+  
   fetch(url)
     .then((response) => response.json())
     .then((data) => {
