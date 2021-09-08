@@ -6,5 +6,7 @@ const users = [
   { name: 'Inmaculada', isPremium: false, pin: 8998 },
 ];
 
-const password = users.filter((item) => item.pin % 2 === 0);
+const password = users
+  .filter((item) => item.pin % 2 === 0)
+  .map((users) => users.name);
 console.log(password);

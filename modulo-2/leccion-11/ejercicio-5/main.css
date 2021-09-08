@@ -1,0 +1,9 @@
+.lightSelector {
+  color: brown;
+  background-color: papayawhip;
+}
+
+.darkSelector {
+  background-color: crimson;
+  color: papayawhip;
+}

@@ -32,7 +32,7 @@ function getGithubOrg() {
           updateTitle();
           namesList.innerHTML = '';
           for (const item of reposName) {       
-            namesList.innerHTML += `<li class="list-item">${item.name}</li>`;
+            namesList.innerHTML += `<li>${item.name}</li>`;
           }
         }
       
