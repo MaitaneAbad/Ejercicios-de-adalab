@@ -1,0 +1,38 @@
+.body {
+  text-align: center;
+  background: rgba(253, 187, 45, 0.5);
+  margin: 20px;
+}
+.header {
+  color: rgb(73, 95, 38);
+}
+
+.enterName {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  margin: 10px 0 10px 0;
+  font-size: 30px;
+}
+.input {
+  margin: 15px 0 10px 0;
+  font-size: 20px;
+  height: 7vh;
+  width: 30vw;
+}
+.buttonNum {
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.paragraphTrack {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.paragraphNum {
+  font-size: 30px;
+  color: rgb(98, 114, 29);
+}
+
+/*# sourceMappingURL=main.css.map */
