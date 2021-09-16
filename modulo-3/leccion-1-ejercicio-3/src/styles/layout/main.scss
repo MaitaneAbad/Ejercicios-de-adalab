@@ -1,0 +1,39 @@
+* {
+  text-align: center;
+}
+.main {
+  background: rgba(253, 187, 45, 0.5);
+  margin: 20px;
+  .form {
+    .enterName {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      display: flex;
+      margin: 10px 0 10px 0;
+      font-size: 30px;
+      .input {
+        margin: 15px 0 10px 0;
+        font-size: 20px;
+        height: 6vh;
+        width: 30vw;
+      }
+      .buttonNum {
+        display: block;
+        margin: 10px 0 10px 0;
+        &:hover {
+          color: #d3a625;
+          background-color: #ae0001;
+        }
+      }
+    }
+  }
+  .paragraphTrack {
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .paragraphNum {
+    font-size: 30px;
+    color: rgb(98, 114, 29);
+  }
+}
