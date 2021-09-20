@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background-position-x: center;
+  justify-content: flex-end;
+  align-items: center;
+
+  .box-title {
+    .title {
+      margin: 10px 15px;
+      font-size: 42px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: red;
+      width: 13ch;
+      @media (min-width: 768px) {
+        font-size: 80px;
+        line-height: 106px;
+      }
+      @media (min-width: 1200px) {
+        font-size: 100px;
+        line-height: 132px;
+      }
+    }
+  }
+  .subtitle {
+    margin: 10px 15px;
+    @media (min-width: 768px) {
+      font-size: 24px;
+    }
+  }
+
+  .hamburguer {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    .img {
+      width: 16px;
+      height: 15px;
+    }
+  }
+  .button_img {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    @media (min-width: 1200px) {
+      margin-top: 20px;
+    }
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 45px;
+      height: 45px;
+      border-radius: 22.5px;
+      @media (min-width: 768px) {
+        margin-bottom: 40px;
+      }
+      @media (min-width: 1200px) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
