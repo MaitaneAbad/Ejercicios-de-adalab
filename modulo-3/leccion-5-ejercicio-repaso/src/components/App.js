@@ -1,6 +1,7 @@
 import '../styles/App.scss';
 import data from './data.json';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import ls from '../services/local-storage';
 
 function App() {
   const [person, setPerson] = useState(data);
@@ -9,6 +10,13 @@ function App() {
   const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
+  const [searchUserContact, setSearchUserContact] = useState(
+    ls.get('data', '')
+  );
+
+  useEffect(() => {
+    ls.set('data', searchUserContact);
+  }, [searchUserContact]);
 
   const handleSearchInput = (ev) => {
     setSearchContact(ev.target.value);
@@ -21,7 +29,10 @@ function App() {
       phone: phone,
       email: email,
     };
-    setPerson([...person, newData]); // lo que ya teniamos más el array nuevo. person es el array de JSON y newData es el nuevo array modificado por la usuaria al añadirlo
+    console.log(newData);
+    setPerson([...person, newData]);
+    setSearchUserContact(newData);
+    // lo que ya teniamos más el array nuevo. person es el array de JSON y newData es el nuevo array modificado por la usuaria al añadirlo
   };
   const handleInput = (ev) => {
     if (ev.target.id === 'name') {
@@ -68,6 +79,7 @@ function App() {
         );
       });
   };
+
   return (
     <div className='page'>
       <header className='header'>
